@@ -11,22 +11,48 @@
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
+Step1:
+![1](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/1-RegisteredDataset.png)
 
-![Alt text](relative/path/to/img.jpg?raw=true "1-RegisteredDataset.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "2-ExperimentCompleted.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "3-BestModel.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "4-Insights Enabled.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "5-logs_py.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "6.1-Swagger and serverpy run.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "6.2-Swagger API.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "6.3-Swagger API2.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "7-Endpoint_py.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "8-Benchmark.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "9-Pipelines Created and Executed.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "11-BankDS AzureML Run.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "12-Pipeline Section Showing Endpoints.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "13-Published Pipeline overview.jpeg")
-![Alt text](relative/path/to/img.jpg?raw=true "14-Widgets Step run.jpeg")
+Step2:
+![2](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/2-ExperimentCompleted.jpeg)
+
+Step3:
+![3](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/3-BestModel.jpeg)
+
+Step4:
+![4](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/4-InsightsEnabled.jpeg)
+
+Step5:
+![5](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/5-logs_py.jpeg)
+
+Step6:
+![6](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/6.1-Swaggerandserverpyrun.jpeg)
+
+![6.1](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/6.2-SwaggerAPI.jpeg)
+
+![6.2](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/6.3-SwaggerAPI2.jpeg)
+
+Step7:
+![7](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/7-Endpoint_py.jpeg)
+
+Step8:
+![8](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/8-Benchmark.jpeg)
+
+Step9:
+![9](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/9-PipelinesCreatedandExecuted.jpeg)
+
+Step10:
+![10](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/11-BankDSAzureMLRun.jpeg)
+
+Step11:
+![11](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/12-PipelineSectionShowingEndpoints.jpeg)
+
+Step12:
+![12](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/13-PublishedPipelineoverview.jpeg)
+
+Step13:
+![13](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/14-WidgetsSteprun.jpeg)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
