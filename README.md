@@ -11,6 +11,23 @@
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
+
+![Alt text](relative/path/to/img.jpg?raw=true "1-RegisteredDataset.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "2-ExperimentCompleted.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "3-BestModel.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "4-Insights Enabled.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "5-logs_py.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "6.1-Swagger and serverpy run.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "6.2-Swagger API.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "6.3-Swagger API2.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "7-Endpoint_py.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "8-Benchmark.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "9-Pipelines Created and Executed.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "11-BankDS AzureML Run.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "12-Pipeline Section Showing Endpoints.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "13-Published Pipeline overview.jpeg")
+![Alt text](relative/path/to/img.jpg?raw=true "14-Widgets Step run.jpeg")
+
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
