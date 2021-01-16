@@ -88,7 +88,7 @@ Azureml widgets evidence of a successful pipeline completion
 ![13](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/14-WidgetsSteprun.jpeg)
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+https://youtu.be/7AU60QKXJ0M
 
 ## Standout Suggestions
 During this project there were a few tricky bits specially around getting docker up and running. Specially on a MAC OS, also a lot of time was spent trying to troublesshot issues with python libraries and compatiblity. The main issue was aroung getting picke and joblib to work. I discovered that in order to make this step to work I had to use the correct sdk verion 1.19.0
