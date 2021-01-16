@@ -3,25 +3,41 @@
 ## Bank Marketing Forecast
 
 The objective of this project is to train a model to forecast the likelihood of getting a loan determined by "y" attribute on the collected data (dataset). Utilize 
-automl and pipeline approaches to determin the best model, deploy and make it availale for interaction via deployed enpoints.
+automl and pipeline approaches to determine the best run, deploy the best model and make it available for interaction via the deployment of endpoints.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+The High level solution designs image below shows two possible paths to forecats the likelihood of detemining the "y" attribute, both of the solutions are supported by compute instances. The first compute instances is required to run basic activities like configuring automls and running the jupyter notebook. The second compute "cluster compute" performs the heavy lifting of running the automl and pipeline automl activities.
+
+The purpose of this diagram is to provide a contextual HLSD and not a details deep dive.
+
+AzureML High Level Solution Design steps:
+1- Load / make reference to the model dataset, i.e. Bank Marketing.csv
+2- AzureML: Use the AzureML Designer to configure the automl model. (for this particular case a classification model)
+3- Run the Experiment created by the AzureML Model
+4- Determine the best run and identify the best model for deployment
+5- Enable endpoints, REST urls for user consumption.
+
+AutoML Pipeline High Level Solution Design steps:
+1- Load / make reference to the model dataset, i.e. Bank Marketing.csv
+2- Using a Jupyter notebook, programatically create the steps necessary to configure, train and run the automl pipeline
+3- Programatically (Jupyter Notebook) identify the best run, best model and enable pipeline endpoints for user consumption.
+
+![Arq](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/ArchitectureDiagram.jpeg)
 
 ## Key Steps
-The Following section describes a brief description on the lis of steps take to produce the automl pipeline project for the Bank Marketing dataset
+The Following section describes a brief description on the list of steps taken to produce the automl pipeline project for the Bank Marketing dataset
 
 Step1:
 Load and register the marketing dataset, make sure it is a tabular dataset and first line include headers
 ![1](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/1-RegisteredDataset.png)
 
 Step2:
-Configure an automl experiment using the designer and the dataset from step1. Select the column y as the value to predict and set the model as classification
-tune timeout parametersand concurrency runs in ordert to execute experiment
+Configure an automl experiment using the designer and the dataset from step1. Select the column y as the value to predict and set the model as classification.
+Set timeout parameter sand concurrency runs in ordert to execute experiment
 ![2](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/2-ExperimentCompleted.jpeg)
 
 Step3:
-Identify best model for experiment, in this case Voting ensamble turned around to be the best algorithm with an accuracy metric of 0.918%
+Identify best model for experiment, in this case Voting ensamble turned to be the best algorithm with an accuracy metric of 0.918%
 ![3](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/3-BestModel.jpeg)
 
 Step4:
@@ -76,3 +92,5 @@ Azureml widgets evidence of a successful pipeline completion
 
 ## Standout Suggestions
 During this project there were a few tricky bits specially around getting docker up and running. Specially on a MAC OS, also a lot of time was spent trying to troublesshot issues with python libraries and compatiblity. The main issue was aroung getting picke and joblib to work. I discovered that in order to make this step to work I had to use the correct sdk verion 1.19.0
+
+I can also conclude by looking at the metrics that both runs generated similar results regarding classification metrics.
