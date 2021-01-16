@@ -87,6 +87,14 @@ Step13:
 Azureml widgets evidence of a successful pipeline completion
 ![13](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/14-WidgetsSteprun.jpeg)
 
+Step13:
+Pipeline Execution and REST point API Call
+![14](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/15-PipelineExecution.jpeg)
+
+Run 49 describe the Completed Experiment run and the Restpoint Call
+
+![15](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/16-RestpointCall.jpeg)
+
 ## Screen Recording
 https://youtu.be/7AU60QKXJ0M
 
@@ -96,4 +104,8 @@ During this project there were a few tricky bits specially around getting docker
 I can also conclude by looking at the metrics that both runs generated similar results regarding classification metrics.
 
 How to Improve the project in the future?
-I found the project very comprehensive and don't think it needs further refinement nevertheless what I found difficult was to to run the labs. this did not help me at all and I had to go back and forth with the resouces slides to crosscheck if I was in the right track.
+
+I would like to implement the following two approaches to validate the model's results
+
+1- I will run the model with less variables and features to see if I can obtain the same accuracy and reduce the this of over-fitting.
+2- Use more data will also help with over-fitting and more difficult to the model to memorize patterns.
