@@ -6,7 +6,23 @@ The objective of this project is to train a model to forecast the likelihood of 
 automl and pipeline approaches to determin the best model, deploy and make it availale for interaction via deployed enpoints.
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+The High Level Solution Designs below show two possible paths to forecats the likelihood of detemining the "y" attribute, both of the high level solutions are supported by compute instances. The first compute instances is required to run basic activities like configuring automls and running the jupyter notebook. The second compute "cluster compute" performs the heavy lifting of running the automl and pipeline automl activities.
+
+The purpose of these diagram is to provide a High level solution desing and not a deep dive into the details
+
+AzureML High Level Solution Design steps:
+1- Load / make reference to the model dataset, i.e. Bank Marketing.csv
+2- AzureML: Use the AzureML Designer to configure the automl model. (For this particular case as Classification Model)
+3- Run the Experiment created by the AzureML Model
+4- Determine the best Run and identify the best model for deployment
+5- Enable endpoints REST urls for user consumption.
+
+AutoML Pipeline High Level Solution Design steps:
+1- Load / make reference to the model dataset, i.e. Bank Marketing.csv
+2- Using a Jupyter notebook programatically create the stepe necessary to configure and run a automl pipeline
+3- programatically (Jupyter Notebook) identify the best run, best model and enable pipeline endpoints for user consumption.
+
+![Arq](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/ArchitectureDiagram.jpeg)
 
 ## Key Steps
 The Following section describes a brief description on the lis of steps take to produce the automl pipeline project for the Bank Marketing dataset
