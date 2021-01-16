@@ -92,3 +92,5 @@ Azureml widgets evidence of a successful pipeline completion
 
 ## Standout Suggestions
 During this project there were a few tricky bits specially around getting docker up and running. Specially on a MAC OS, also a lot of time was spent trying to troublesshot issues with python libraries and compatiblity. The main issue was aroung getting picke and joblib to work. I discovered that in order to make this step to work I had to use the correct sdk verion 1.19.0
+
+I can also conclude by looking at the metrics that both runs generated similar results regarding classification metrics.
