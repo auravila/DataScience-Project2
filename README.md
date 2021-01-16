@@ -1,7 +1,6 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
 
 
-Bank Marketing Forecast
+## Bank Marketing Forecast
 
 The objective of this project is to train a model to forecast the likelihood of getting a loan determined by "y" attribute on the collected data (dataset) utilize 
 automl and pipeline mechanism and interact with the model via deployed enpoints.
