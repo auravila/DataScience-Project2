@@ -2,8 +2,8 @@
 
 ## Bank Marketing Forecast
 
-The objective of this project is to train a model to forecast the likelihood of getting a loan determined by "y" attribute on the collected data (dataset) utilize 
-automl and pipeline mechanism to determin the best mode, deploy and make it availale and interact with the it via deployed enpoints.
+The objective of this project is to train a model to forecast the likelihood of getting a loan determined by "y" attribute on the collected data (dataset). Utilize 
+automl and pipeline approaches to determin the best model, deploy and make it availale for interaction via deployed enpoints.
 
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
