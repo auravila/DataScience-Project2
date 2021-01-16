@@ -89,7 +89,9 @@ Azureml widgets evidence of a successful pipeline completion
 
 Step13:
 Pipeline Execution and REST point API Call
+
 ![14](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/15-PipelineExecution.jpeg)
+
 
 Run 49 describe the Completed Experiment run and the Restpoint Call
 
@@ -108,4 +110,6 @@ How to Improve the project in the future?
 I would like to implement the following two approaches to validate the model's results
 
 1- Run the model with less variables and features in order to see if I can obtain the same accuracy and reduce the risk of over-fitting.
+
+
 2- Using more data will also help me with over-fitting and it will be more difficult for the model to memorize patterns.
