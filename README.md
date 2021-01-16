@@ -107,5 +107,5 @@ How to Improve the project in the future?
 
 I would like to implement the following two approaches to validate the model's results
 
-1- I will run the model with less variables and features to see if I can obtain the same accuracy and reduce the this of over-fitting.
-2- Use more data will also help with over-fitting and more difficult to the model to memorize patterns.
+1- Run the model with less variables and features in order to see if I can obtain the same accuracy and reduce the risk of over-fitting.
+2- Using more data will also help me with over-fitting and it will be more difficult for the model to memorize patterns.
