@@ -94,3 +94,6 @@ https://youtu.be/7AU60QKXJ0M
 During this project there were a few tricky bits specially around getting docker up and running. Specially on a MAC OS, also a lot of time was spent trying to troublesshot issues with python libraries and compatiblity. The main issue was aroung getting picke and joblib to work. I discovered that in order to make this step to work I had to use the correct sdk verion 1.19.0
 
 I can also conclude by looking at the metrics that both runs generated similar results regarding classification metrics.
+
+How to Improve the project in the future?
+I found the project very comprehensive and don't think it needs further refinement nevertheless what I found difficult was to to run the labs. this did not help me at all and I had to go back and forth with the resouces slides to crosscheck if I was in the right track.
