@@ -3,41 +3,41 @@
 ## Bank Marketing Forecast
 
 The objective of this project is to train a model to forecast the likelihood of getting a loan determined by "y" attribute on the collected data (dataset). Utilize 
-automl and pipeline approaches to determin the best model, deploy and make it availale for interaction via deployed enpoints.
+automl and pipeline approaches to determine the best run, deploy the best model and make it available for interaction via the deployment of endpoints.
 
 ## Architectural Diagram
-The High Level Solution Designs below show two possible paths to forecats the likelihood of detemining the "y" attribute, both of the high level solutions are supported by compute instances. The first compute instances is required to run basic activities like configuring automls and running the jupyter notebook. The second compute "cluster compute" performs the heavy lifting of running the automl and pipeline automl activities.
+The High level solution designs image below shows two possible paths to forecats the likelihood of detemining the "y" attribute, both of the solutions are supported by compute instances. The first compute instances is required to run basic activities like configuring automls and running the jupyter notebook. The second compute "cluster compute" performs the heavy lifting of running the automl and pipeline automl activities.
 
-The purpose of these diagram is to provide a High level solution desing and not a deep dive into the details
+The purpose of this diagram is to provide a contextual HLSD and not a details deep dive.
 
 AzureML High Level Solution Design steps:
 1- Load / make reference to the model dataset, i.e. Bank Marketing.csv
-2- AzureML: Use the AzureML Designer to configure the automl model. (For this particular case as Classification Model)
+2- AzureML: Use the AzureML Designer to configure the automl model. (for this particular case a classification model)
 3- Run the Experiment created by the AzureML Model
-4- Determine the best Run and identify the best model for deployment
-5- Enable endpoints REST urls for user consumption.
+4- Determine the best run and identify the best model for deployment
+5- Enable endpoints, REST urls for user consumption.
 
 AutoML Pipeline High Level Solution Design steps:
 1- Load / make reference to the model dataset, i.e. Bank Marketing.csv
-2- Using a Jupyter notebook programatically create the stepe necessary to configure and run a automl pipeline
-3- programatically (Jupyter Notebook) identify the best run, best model and enable pipeline endpoints for user consumption.
+2- Using a Jupyter notebook, programatically create the steps necessary to configure, train and run the automl pipeline
+3- Programatically (Jupyter Notebook) identify the best run, best model and enable pipeline endpoints for user consumption.
 
 ![Arq](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/ArchitectureDiagram.jpeg)
 
 ## Key Steps
-The Following section describes a brief description on the lis of steps take to produce the automl pipeline project for the Bank Marketing dataset
+The Following section describes a brief description on the list of steps taken to produce the automl pipeline project for the Bank Marketing dataset
 
 Step1:
 Load and register the marketing dataset, make sure it is a tabular dataset and first line include headers
 ![1](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/1-RegisteredDataset.png)
 
 Step2:
-Configure an automl experiment using the designer and the dataset from step1. Select the column y as the value to predict and set the model as classification
-tune timeout parametersand concurrency runs in ordert to execute experiment
+Configure an automl experiment using the designer and the dataset from step1. Select the column y as the value to predict and set the model as classification.
+Set timeout parameter sand concurrency runs in ordert to execute experiment
 ![2](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/2-ExperimentCompleted.jpeg)
 
 Step3:
-Identify best model for experiment, in this case Voting ensamble turned around to be the best algorithm with an accuracy metric of 0.918%
+Identify best model for experiment, in this case Voting ensamble turned to be the best algorithm with an accuracy metric of 0.918%
 ![3](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/3-BestModel.jpeg)
 
 Step4:
