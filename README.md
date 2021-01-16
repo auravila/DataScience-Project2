@@ -9,12 +9,15 @@
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+The Following section describes a brief description on the lis of steps take to produce the automl pipeline project for the Bank Marketing dataset
 
 Step1:
+Load and register the marketing dataset, make sure it is a tabular dataset and first line include headers
 ![1](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/1-RegisteredDataset.png)
 
 Step2:
+Configure and automl experiment using the designer and the dataset from step1. Select the column y as the value to predict and set the model as classification
+tune other parameters and execute experiment
 ![2](https://github.com/auravila/DataScience-Project2/blob/master/Screenshots/2-ExperimentCompleted.jpeg)
 
 Step3:
